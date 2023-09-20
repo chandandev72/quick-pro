@@ -1,0 +1,74 @@
+/* blog section */
+
+section{
+    overflow: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+img{
+    width: 100px;
+    height: 200px;
+}
+
+.blog-parnet{
+    display: flex;
+    margin: 50px auto;
+    padding: 20px 0;
+}  
+ 
+
+.blog{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    margin: 0px 25px 0px 25px;
+    padding: 15px;
+    border-radius: 5px;
+    }
+.blog img{
+    width: 100%;
+    height: 220%;
+}
+
+.blog-item{}
+
+.blog-item img{}
+
+
+.blog-item h1{}
+    
+
+.blog-item p{}
+
+
+
+.blog:hover{
+
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 10px 0px 10px;
+}
+/* footer */
+footer{
+    background-color: #80808036;
+    padding: 45px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    color: black;
+    font-size: 20px;
+}
+
+.col h2{}
+
+.col li{
+    list-style: none;
+    margin: 20px auto;
+    color: black;
+}
+
